@@ -67,7 +67,7 @@ const Navbar = () => {
         {/* To Set the Toggle Functionality */}
         {DrawerOpen && (
           <motion.div
-            className="fixed top-20 right-0 h-screen w-[15rem] z-20 bg-red-900 flex flex-col justify-center items-center lg:hidden space-y-10 ml-0 mt-0 rounded-2xl"
+            className="fixed top-20 right-0 h-screen w-[15rem] z-20 bg-neutral-950 flex flex-col justify-center items-center lg:hidden space-y-10 ml-0 mt-0 rounded-2xl"
             initial={{ x: '100%' }}
             animate={{ x: '0%' }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
